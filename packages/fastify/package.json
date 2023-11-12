@@ -1,6 +1,6 @@
 {
   "name": "@hcmus/fastify",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/20120551/common#readme",
   "dependencies": {
-    "@hcmus/common": "^1.0.1",
+    "@hcmus/common": "^1.0.3",
     "amqplib": "^0.10.3",
     "fastify": "^4.24.3",
     "fastify-plugin": "^4.5.1",
