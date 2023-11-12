@@ -1,5 +1,5 @@
 {
-  "name": "@nguyengo2112/fastify",
+  "name": "@hcmus/fastify",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,9 +18,10 @@
   },
   "homepage": "https://github.com/20120551/common#readme",
   "dependencies": {
+    "@hcmus/common": "^1.0.0",
+    "amqplib": "^0.10.3",
     "fastify": "^4.24.3",
     "fastify-plugin": "^4.5.1",
-    "amqplib": "^0.10.3",
     "redis": "^4.6.10"
   },
   "devDependencies": {
