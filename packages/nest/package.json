@@ -1,0 +1,30 @@
+{
+  "name": "@nguyengo2112/nest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/20120551/common.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/20120551/common/issues"
+  },
+  "homepage": "https://github.com/20120551/common#readme",
+  "dependencies": {
+    "@golevelup/nestjs-discovery": "^4.0.0",
+    "@nestjs/common": "^10.2.8",
+    "@nestjs/core": "^10.2.8",
+    "@nguyengo2112/common": "^1.0.0",
+    "amqplib": "^0.10.3",
+    "redis": "^4.6.10"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.4"
+  }
+}

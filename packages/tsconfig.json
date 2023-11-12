@@ -1,0 +1,14 @@
+{
+    "files": [],
+    "references": [
+        {
+            "path": "./common/tsconfig.json"
+        },
+        {
+            "path": "./nest/tsconfig.json"
+        },
+        {
+            "path": "./fastify/tsconfig.json"
+        }
+    ]
+}

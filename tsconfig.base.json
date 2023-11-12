@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "module": "CommonJS",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "declaration": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": false,
+        "skipLibCheck": true,
+        "outDir": "dist",
+        "paths": {
+            "@nguyengo2112/common": [
+                "./packages/common"
+            ],
+            "@nguyengo2112/common/*": [
+                "./packages/common/*"
+            ],
+            "@nguyengo2112/fastify": [
+                "./packages/fastify"
+            ],
+            "@nguyengo2112/fastify/*": [
+                "./packages/fastify/*"
+            ],
+            "@nguyengo2112/nest": [
+                "./packages/nest"
+            ],
+            "@nguyengo2112/nest/*": [
+                "./packages/nest/*"
+            ],
+        }
+    },
+    "include": [
+        "packages/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

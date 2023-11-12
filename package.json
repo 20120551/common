@@ -1,0 +1,17 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build:prod": "tsc -b -v packages",
+    "build:dev": "tsc -b -v packages",
+    "clean": "tsc -b --clean packages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
