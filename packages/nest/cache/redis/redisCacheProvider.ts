@@ -1,7 +1,7 @@
 import { Injectable, Inject } from "@nestjs/common";
 import { RedisClientType } from "redis";
 import { REDIS_CLIENT_TYPE } from "../constant";
-import { ICache, createRedisCache } from "@nguyengo2112/common";
+import { ICache, createRedisCache } from "@hcmus/common";
 @Injectable()
 export default class RedisCacheProvider implements ICache {
     private readonly redisCacheProvider: ICache;

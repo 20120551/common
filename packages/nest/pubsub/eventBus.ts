@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { IEvent, IEventBus, IEventHandler } from "@nguyengo2112/common";
+import { IEvent, IEventBus, IEventHandler } from "@hcmus/common";
 
 @Injectable()
 export default class EventBus implements IEventBus {

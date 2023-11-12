@@ -1,4 +1,4 @@
-import { IEvent, IEventBus, IEventHandler } from "@nguyengo2112/common";
+import { IEvent, IEventBus, IEventHandler } from "@hcmus/common";
 
 const createEventBus = (): IEventBus => {
     // private property

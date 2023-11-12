@@ -1,7 +1,7 @@
 import { RedisClientType, createClient } from "redis";
 import { FastifyPluginAsync } from "fastify";
 import fp from "fastify-plugin";
-import { RedisConnectionOptions, createRedisCache } from "@nguyengo2112/common";
+import { RedisConnectionOptions, createRedisCache } from "@hcmus/common";
 
 const redisCachePlugin: FastifyPluginAsync = fp(async (fastify, opts: RedisConnectionOptions) => {
     const redis = createClient(opts);

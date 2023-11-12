@@ -1,7 +1,7 @@
 import fp from "fastify-plugin";
 import { FastifyPluginAsync } from "fastify";
 import { connect } from "amqplib";
-import { createRabbitmqPubsub, AmqpPubsubOptions } from "@nguyengo2112/common";
+import { createRabbitmqPubsub, AmqpPubsubOptions } from "@hcmus/common";
 import { createEventBus } from "./eventBus";
 
 const amqpPubsubPlugin: FastifyPluginAsync = fp(async (fastify, { amqpConfigs, handlers }: AmqpPubsubOptions) => {

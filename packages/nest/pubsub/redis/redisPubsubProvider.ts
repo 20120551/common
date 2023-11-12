@@ -4,7 +4,7 @@ import { EVENT_BUS, REDIS_CLIENT_TYPE } from "../constant";
 import {
     DomainException, IEvent, IEventBus, IPubsub, IRejectedEvent,
     PublisherOptions, SubscriberOptions, createRedisPubsub
-} from "@nguyengo2112/common";
+} from "@hcmus/common";
 
 @Injectable()
 export default class RedisPubsubProvider implements IPubsub {

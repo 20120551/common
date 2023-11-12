@@ -1,7 +1,7 @@
 import fp from "fastify-plugin";
 import { FastifyPluginAsync } from "fastify";
 import { RedisClientType, createClient } from "redis";
-import { RedisPubsubOptions, createRedisPubsub } from "@nguyengo2112/common";
+import { RedisPubsubOptions, createRedisPubsub } from "@hcmus/common";
 import { createEventBus } from "./eventBus";
 
 const redisPubsubPlugin: FastifyPluginAsync = fp(async (fastify, { redisConfigs, handlers }: RedisPubsubOptions) => {

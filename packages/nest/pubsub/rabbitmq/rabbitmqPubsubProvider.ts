@@ -5,7 +5,7 @@ import {
     DomainException,
     IEvent, IEventBus, IPubsub, IRejectedEvent, PublisherOptions,
     SubscriberOptions, createRabbitmqPubsub
-} from "@nguyengo2112/common";
+} from "@hcmus/common";
 
 @Injectable()
 export default class RabbitmqPubsubProvider implements IPubsub {

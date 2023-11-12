@@ -3,7 +3,7 @@ import { connect } from "amqplib";
 import EventBus from "../eventBus";
 import RabbitmqPubsubProvider from "./rabbitmqPubsubProvider";
 import { EVENT_BUS, EVENT_HANDLER, RABBITMQ_CLIENT_TYPE } from "../constant";
-import { IEventHandler, IPubsub, RabbitMQOptions } from "@nguyengo2112/common";
+import { IEventHandler, IPubsub, RabbitMQOptions } from "@hcmus/common";
 
 @Module({})
 export default class RabbitmqPubsubModule {

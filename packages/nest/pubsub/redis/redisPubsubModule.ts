@@ -3,7 +3,7 @@ import RedisPubsubProvider from "./redisPubsubProvider";
 import { RedisClientType, createClient } from "redis";
 import EventBus from "../eventBus";
 import { EVENT_BUS, EVENT_HANDLER, REDIS_CLIENT_TYPE } from "../constant";
-import { IEventHandler, IPubsub, RedisOptions } from "@nguyengo2112/common";
+import { IEventHandler, IPubsub, RedisOptions } from "@hcmus/common";
 
 @Module({})
 export default class RedisPubsubModule {

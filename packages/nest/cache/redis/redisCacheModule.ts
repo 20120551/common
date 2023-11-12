@@ -1,7 +1,7 @@
 import { DynamicModule, Module } from "@nestjs/common";
 import RedisCacheProvider from "./redisCacheProvider";
 import { RedisClientType, createClient } from "redis";
-import { ICache, RedisConnectionOptions } from "@nguyengo2112/common";
+import { ICache, RedisConnectionOptions } from "@hcmus/common";
 import { REDIS_CLIENT_TYPE } from "../constant";
 
 @Module({})
