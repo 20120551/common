@@ -19,5 +19,3 @@ yarn-error.log
 /packages/**/.npmignore
 /packages/**/LICENSE
 *.tsbuildinfo
-tsconfig.base.json
-tsconfig.json
