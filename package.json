@@ -9,7 +9,8 @@
     "build:prod": "tsc -b -v packages",
     "build:dev": "tsc -b -v packages",
     "clean": "tsc -b --clean packages",
-    "publish": "npm publish --workspaces --access public"
+    "publish:workspace": "npm publish --workspaces --access public",
+    "publish": "npm run build:prod && npm run publish:workspace"
   },
   "keywords": [],
   "author": "",

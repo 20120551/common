@@ -13,22 +13,22 @@
         "skipLibCheck": true,
         "outDir": "dist",
         "paths": {
-            "@nguyengo2112/common": [
+            "@hcmus/common": [
                 "./packages/common"
             ],
-            "@nguyengo2112/common/*": [
+            "@hcmus/common/*": [
                 "./packages/common/*"
             ],
-            "@nguyengo2112/fastify": [
+            "@hcmus/fastify": [
                 "./packages/fastify"
             ],
-            "@nguyengo2112/fastify/*": [
+            "@hcmus/fastify/*": [
                 "./packages/fastify/*"
             ],
-            "@nguyengo2112/nest": [
+            "@hcmus/nest": [
                 "./packages/nest"
             ],
-            "@nguyengo2112/nest/*": [
+            "@hcmus/nest/*": [
                 "./packages/nest/*"
             ],
         }
