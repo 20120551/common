@@ -1,0 +1,15 @@
+{
+    "extends": "../tsconfig.base.json",
+    "compilerOptions": {
+        "outDir": ".",
+        "rootDir": ".",
+    },
+    "references": [
+        {
+            "path": "../common/tsconfig.json"
+        }
+    ],
+    "exclude": [
+        "dist"
+    ]
+}

@@ -8,7 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/20120551/common.git"
+    "url": "git+ssh://git@github.com/20120551/common.git",
+    "directory": "packages/fastify"
   },
   "author": "",
   "license": "ISC",
